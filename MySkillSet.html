@@ -4,16 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <title>MySkillSet</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Hello, World!</h1>
+    <div class="container mt-5">
+        <div class="row px-3 mb-5">
+          <div class="person px-0 col-lg-4 mb-3">
+            <img class="img-fluid rounded" width="350" src="imgs/gyK56914SaK91WvO1AyTSw_thumb_10ef.jpg" >
+          </div>
+            
+          <div class="col-lg-8 px-0">
+            <div class="row px-3">
+              <div class="col-lg-7">
+                  <h6 class="m-0 py-1">ふりがな：　いしざか　　けんじろう</h6>
+                  <h2 class="m-0 py-1 line">名前：石坂　謙二郎</h2>
+              </div>
+              <div class="col-lg-5  py-2">
+                  <h5 class="py-1 m-0">年齢：36歳</h5>
+                  <h5 class="py-1 m-0 line">神奈川県川崎市在住</h5>
+              </div>
             </div>
+            
+              
+
+              <div class="tabs mt-3 ml-3">
+                <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill-tab" aria-selected="true">スキル</a>
+                    <a class="nav-item nav-link" id="experience-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience-tab" aria-selected="false">経歴</a>
+                    <a class="nav-item nav-link" id="reason-tab" data-toggle="tab" href="#reason" role="tab" aria-controls="reason-tab" aria-selected="false">エンジニアになりたい理由</a>
+                </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade p-3 active show" id="skill" role="tabpanel" aria-labelledby="skill-tab">
+                  <div class="row">
+                    <div class="card col-5 p-0">
+                      <ul>
+                        <li class="py-2 px-3 m-0">PHP 7.2</li> 
+                        <li class="py-2 px-3 m-0">Laravel 5.8</li> 
+                        <li class="py-2 px-3 m-0">HTML/CSS</li> 
+                        <li class="py-2 px-3 m-0">Bootstrap4</li> 
+                        <li class="py-2 px-3 m-0">MySQL</li> 
+                      </ul>
+                    </div>
+                    <div class="card col-7">
+                      <p class="py-2 px-3 m-0">その他</p> 
+                      <p class="py-2 px-3 m-0">開発環境は主にhomestead、MAMP使用</p> 
+                      <p class="py-2 px-3 m-0">現在は、Vue.jsを学習中</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade px-3" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                  <p class="py-2 px-3 m-0">福岡県出身</p>   
+                  <p class="py-2 px-3 m-0">2002年　福岡県の国立高専　建築学科卒業</p>   
+                  <p class="pb-2 px-3 m-0">2003年　外壁工事事業の会社へ就職。外壁工事の現場管理として勤務</p>   
+                  <p class="pb-2 px-3 m-0">2008年　退職し、カナダへ語学留学</p>   
+                  <p class="pb-2 px-3 m-0">2010年　帰国後、中国大連のITヘルプデスクとして勤務</p>   
+                  <p class="pb-2 px-3 m-0">2012年　アパレル会社で販売職として勤務</p>   
+                  <p class="pb-2 px-3 m-0">2019年　前職を退職し、現在IT業界への転職活動中</p>   
+              </div>
+                <div class="tab-pane fade p-3" id="reason" role="tabpanel" aria-labelledby="reason-tab">
+                    <p class="reason">多くの方の不便を解決するサービスを作るために、エンジニアになる事を決意しました。</p>
+                      <p class="reason text-break">いろいろな職を経験してきましたが、自ら進んで学び技術を高め、たくさんのユーザーの不便を解決し、
+                      認められることができるのはITエンジニアだと強く感じ、転職を決意しました。
+                      年齢が高く未経験ですが、向上心を持ち自ら学習しながら、世の中のニーズを読み取り、
+                      サービスを創り出せるようなエンジニアになりたいと思います。
+                    </p>
+                </div>
+                </div>
+              </div>
+               
+            
         </div>
-    </div>
-    
+        </div>
+        <div class="accordion mt-4" id="accordionExample">
+                <div class="card">
+                  <div class="card-header py-1 bg-primary" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        news_App
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header py-1 bg-warning" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        insta
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header py-1 bg-success" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ぼけませんか
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+    <!-- Bootstrap CSS -->
+    
+
+   
+ 
+    

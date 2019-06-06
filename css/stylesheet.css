@@ -1,0 +1,11 @@
+
+.line{
+    border-bottom:solid 1px #dcdee0;
+}
+.person{
+    margin:0 auto;
+    text-align:center;
+}
+.reason{
+    letter-spacing:0.05em;
+}
