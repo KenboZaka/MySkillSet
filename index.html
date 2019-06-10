@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <div class="row px-3 mb-5">
+        <div class="row px-3 mb-4">
           <div class="person px-0 col-lg-4 mb-3">
             <img class="img-fluid rounded" width="350" src="imgs/gyK56914SaK91WvO1AyTSw_thumb_10ef.jpg" >
           </div>
@@ -39,7 +39,7 @@
                 <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade p-3 active show" id="skill" role="tabpanel" aria-labelledby="skill-tab">
                   <div class="row">
-                    <div class="card col-5 p-0">
+                    <div class="card col-5 p-2">
                       <ul>
                         <li class="py-2 px-3 m-0">PHP 7.2</li> 
                         <li class="py-2 px-3 m-0">Laravel 5.8</li> 
@@ -48,7 +48,7 @@
                         <li class="py-2 px-3 m-0">MySQL</li> 
                       </ul>
                     </div>
-                    <div class="card col-7">
+                    <div class="card col-7 p-2">
                       <p class="py-2 px-3 m-0">その他</p> 
                       <p class="py-2 px-3 m-0">開発環境は主にhomestead、MAMP使用</p> 
                       <p class="py-2 px-3 m-0">現在は、Vue.jsを学習中</p> 
@@ -57,14 +57,14 @@
                 </div>
                 <div class="tab-pane fade px-3" id="experience" role="tabpanel" aria-labelledby="experience-tab">
                   <p class="py-2 px-3 m-0">福岡県出身</p>   
-                  <p class="py-2 px-3 m-0">2002年　福岡県の国立高専　建築学科卒業</p>   
+                  <p class="py-2 px-3 m-0">2002年　福岡県の高専の建築学科卒業</p>   
                   <p class="pb-2 px-3 m-0">2003年　外壁工事事業の会社へ就職。外壁工事の現場管理として勤務</p>   
                   <p class="pb-2 px-3 m-0">2008年　退職し、カナダへ語学留学</p>   
                   <p class="pb-2 px-3 m-0">2010年　帰国後、中国大連のITヘルプデスクとして勤務</p>   
                   <p class="pb-2 px-3 m-0">2012年　アパレル会社で販売職として勤務</p>   
                   <p class="pb-2 px-3 m-0">2019年　前職を退職し、現在IT業界への転職活動中</p>   
               </div>
-                <div class="tab-pane fade p-3" id="reason" role="tabpanel" aria-labelledby="reason-tab">
+                <div class="tab-pane fade py-3 px-5" id="reason" role="tabpanel" aria-labelledby="reason-tab">
                     <p class="reason">多くの方の不便を解決するサービスを作るために、エンジニアになる事を決意しました。</p>
                       <p class="reason text-break">いろいろな職を経験してきましたが、自ら進んで学び技術を高め、たくさんのユーザーの不便を解決し、
                       認められることができるのはITエンジニアだと強く感じ、プログラミング学習をしながら現在転職活動中です。
@@ -77,33 +77,92 @@
             
         </div>
         </div>
-        <div class="accordion mt-4" id="accordionExample">
+        <div class="accordion mt-3" id="accordionExample">
                 <div class="card">
-                  <div class="card-header py-1 bg-primary" id="headingOne">
+                  <div class="card-header py-1 bg-primary d-flex align-items-center" id="headingOne">
                     <h2 class="mb-0">
-                      <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <button class="btn btn-link text-white float-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         news_App
                       </button>
+                      <h6 class="float-right my-auto mx-4 text-white">作成期間３ヶ月（初学からの実働）</h6>
                     </h2>
                   </div>
               
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      <div class="row">
+                        <div class="col-lg-5 text-center mt-4 mb-2 px-0">
+                          <img src="imgs/スクリーンショット 2019-06-10 10.37.00.png" width="350" class="p-0 auto">
+                          <p class="text-left h6 p-2 my-2">Yahooニュースを参考とし、ニュースに対しての意見を投稿できるサイトです。
+                            異なる意見への寛容さ、同意してくれる人がいる喜びを提供する場を作りたいと思い作成しました。</p>
+                        </div>
+                        <div class="col-lg-7 px-2">
+                          <div class="card p-3">
+                          <h6>取り入れた技術・機能</h6>
+                          <ol>
+                            <li>Laravel 5系</li>
+                              <ul>
+                                <li>CRUD機能（投稿・表示・保存・削除）</li>
+                                <li>Laravelの認証機能</li>
+                                <li>いいね機能実装</li>
+                                <li>APIを使用してのニュース記事の取得</li>
+                                <li>Laravelのスケジューラー機能を使用して記事の取得</li>
+                              </ul>
+                              <li>その他</li>
+                              <ul>
+                                  <li>Bootstrap4でスタイリング・レスポンシブ処理</li>
+                                  <li>Herokuへのデプロイ</li>
+                              </ul>
+
+                          </ol>
+                        </div>
+                        </div>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header py-1 bg-warning" id="headingTwo">
+                  <div class="card-header py-1 bg-warning d-flex align-items-center" id="headingTwo">
                     <h2 class="mb-0">
-                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        insta
+                      <button class="btn btn-link text-white float-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        駅Diary
                       </button>
+                      <h6 class="float-right my-auto mx-4 text-white">作成期間2-3週間</h6>
                     </h2>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      <div class="row">
+                        <div class="col-lg-5 text-center mt-4 mb-2 px-0">
+                          <img src="imgs/スクリーンショット 2019-06-09 23.39.58.png" width="350" class="p-0 auto">
+                          <p class="text-left h6 p-2 my-2">インスタグラム参考に、写真投稿ができるアプリとして作成しました。
+                            東京都内でも駅によって表情が異なり、そこで起きる出来事もたくさんあると思います。
+                            コミュニケーション以外でも、駅周辺の情報発信としても使用できるアプリとして開発しました。</p>
+                          
+                        </div>
+                        <div class="col-lg-7 px-2">
+                            <div class="card p-3">
+                                <h6>取り入れた技術・機能</h6>
+                                <ol>
+                                  <li>Laravel 5系</li>
+                                    <ul>
+                                      <li>CRUD機能（投稿・表示・保存・削除）</li>
+                                      <li>Laravelの認証機能</li>
+                                      <li>写真投稿・いいね機能実装</li>
+                                      <li>タグ登録・参照機能</li>
+                                      <li>検索機能</li>
+                                    </ul>
+                                    <li>その他</li>
+                                    <ul>
+                                        <li>Bootstrap4でスタイリング・レスポンシブ処理</li>
+                                        <li>Herokuへのデプロイ</li>
+                                    </ul>
+                                </ol>
+
+                            </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -111,13 +170,20 @@
                   <div class="card-header py-1 bg-success" id="headingThree">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        ぼけませんか
+                        ぼけませんか　6月現在鋭意作成中
                       </button>
                     </h2>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      <div class="row">
+                        <div class="col">
+                          <img src="" width="350" alt="">
+                        </div>
+                        <div class="col">
+
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
